@@ -205,10 +205,10 @@ $(document).ready(function(){
         'overflow-y': 'scroll', // 垂直滚动条
         'overflow-x': 'hidden' // 隐藏水平滚动条
     });
-    $('.slideshow').append('<img class="photo1" src="Q版无水印.jpg" alt="Q版无水印">');
-    $('.slideshow').append('<img class="photo2" src="Q版有水印.jpg" alt="Q版有水印">');
-    $('.slideshow').append('<img class="photo3" src="有水印.jpg" alt="有水印">');
-    $('.slideshow').append('<img class="photo4" src="无水印.jpg" alt="无水印">');
+    $('.slideshow').append('<img class="photo1" src="me.jpg" alt="me">');
+    $('.slideshow').append('<img class="photo2" src="me1.jpg" alt="me1">');
+    $('.slideshow').append('<img class="photo3" src="me2.jpg" alt="me2">');
+    // $('.slideshow').append('<img class="photo4" src="无水印.jpg" alt="无水印">');
 
     // 设置照片样式
     $('.photo1').css({
@@ -229,12 +229,12 @@ $(document).ready(function(){
         'display': 'block',
         'margin': '20px auto' // 上下间距20px，水平居中对齐
     });
-    $('.photo4').css({
-        'width': '100%',
-        'height': 'auto',
-        'display': 'block',
-        'margin': '20px auto' // 上下间距20px，水平居中对齐
-    });
+    // $('.photo4').css({
+    //     'width': '100%',
+    //     'height': 'auto',
+    //     'display': 'block',
+    //     'margin': '20px auto' // 上下间距20px，水平居中对齐
+    // });
 }, 10000);
 
 
